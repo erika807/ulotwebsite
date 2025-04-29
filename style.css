@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffaf0; /* soft beige */
+    color: #5c4033; /* soft brown for text */
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f5f5dc; /* lighter beige */
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #5c4033;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.scents-gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px; /* optional soft edges */
+}
+
+.bottom-nav {
+    margin-top: 30px;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    color: #5c4033;
+    font-weight: bold;
+    margin: 0 8px;
+}
